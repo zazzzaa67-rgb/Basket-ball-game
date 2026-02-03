@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Basketball game </title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1>Guest</h1>
+                <div class="background">
+                    <p id="number1">0</p>
+                </div>
+                <div class="three-options ">
+                    <button class="click" onclick="increment3()"> +3 </button>
+                    <button class="click" onclick="increment2()"> +2</button>
+                    <button class="click" onclick="increment1()"> +1 </button>
+                </div>
+            </div>
+            <div class="card">
+                <h1>Home</h1>
+                <div class="background">
+                    <p id="number2">0</p>
+                </div>
+                <div class="three-options "> 
+                    <button class="click" onclick="increment6()"> +3 </button>
+                    <button class="click" onclick="increment5()"> +2</button>
+                    <button class="click" onclick="increment4()"> +1 </button>
+                </div>
+            </div>
+        </div>
+        <button class="NewGame" onclick="end()"> New Game </button>
+        
+        
+        <script src="index.js"></script>
+    </body>
+    </html>

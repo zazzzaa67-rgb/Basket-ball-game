@@ -39,5 +39,10 @@ function end(){
     num1.textContent = 0
     num2.textContent = 0
 }
+let TheCounter = document.getElementById("counter") 
+
+
+    
+
 
 // لو طلع في حاجة غلط يبقي تعالي هنا وعمل متغير 
